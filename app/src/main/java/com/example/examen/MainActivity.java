@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
         connectionPSQL.inserData();
+        connectionPSQL.getAllData();
         /*fireBaseConnection.createMessage("hola");*/
     }
 
